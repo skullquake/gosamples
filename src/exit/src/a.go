@@ -4,6 +4,6 @@ import(
 	"os"
 )
 func main(){
-	defer fmt.Println("!")
+	defer fmt.Println("never prints!")
 	os.Exit(3)
 }
